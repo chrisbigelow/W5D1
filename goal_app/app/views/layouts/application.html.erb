@@ -9,6 +9,7 @@
   </head>
 
   <body>
+    <%= link_to "All Users", users_url %>
 
     <% if logged_in? %>
       <%= button_to "Log Out", session_url, method: :delete %>
